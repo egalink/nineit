@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nine IT - Lanzamiento</title>
+    <link rel="icon" href="favicon.png" type="image/png" />
+    
+    <!-- Meta tags para SEO -->
+    <meta name="description" content="Nine IT es una empresa de consultoría de software que transforma ideas en soluciones digitales. Estamos trabajando en algo increíble. ¡Mantente atento!" />
+    <meta name="keywords" content="consultoría de software, desarrollo de software, soluciones digitales, tecnología, innovación" />
+    <meta name="author" content="El equipo de Nine IT" />
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com"/>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@200&family=Zain&display=swap" rel="stylesheet"/>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: "Roboto", sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #0C1C24;
+            text-align: center;
+        }
+        .container {
+            max-width: 600px;
+            padding: 20px;
+            border-radius: 8px;
+            /*background-color: #18A8EF;*/ /* Fondo para el contenedor */
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+        p {
+            color: #ECEEEF;
+            font-size: 1.4rem;
+            letter-spacing: 1px;
+            font-weight: 200;
+        }
+
+        .test, .test * {
+            outline: 1px solid red;
+            outline-offset: -1px;
+        }
+
+        @media (max-width: 600px) {
+            p {
+                font-size: 1rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="350"
+            height="110"
+            viewBox="0 0 350 110"
+        >
+            <!-- Fondo -->
+            <rect width="100%" height="100%" fill="#0C1C24" />
+            <!-- Elementos gráficos (círculos) -->
+            <circle cx="50" cy="50" r="25" fill="#ECEEEF" />
+            <circle cx="80" cy="50" r="25" fill="#307CB6" />
+            <circle cx="110" cy="50" r="25" fill="#18A8EF" />
+            <!-- Texto -->
+            <text
+                x="150"
+                y="70"
+                font-family="Zain, Roboto, sans-serif"
+                font-size="68"
+                letter-spacing="2px"
+                word-spacing="4px"
+                fill="#ECEEEF"
+            >
+                Nine IT
+            </text>
+        </svg>
+        <p>Transformamos ideas en soluciones digitales.</p>
+    </div>
+</body>
+</html>
